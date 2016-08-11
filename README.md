@@ -15,3 +15,8 @@ PC2 (Decryption software)
 The platform independent software is used in PC2, the message coming at Communication port is read and by only providing a Valid key, the message contents is revealed .
 
 This was done to understand data security and implement a basic security algorithm with also the aim to make a simple embedded system to specifically work on our needs.
+
+Check Pic16f886 datasheet here {http://ww1.microchip.com/downloads/en/DeviceDoc/41291D.pdf}in which we used UART port to transfer the encrypted message to and from a PC end .
+Also we entirely worked out on our code on MPLABX IDE platform.
+
+ my questions were posted at { microchip.com/forums/} under the name of {ash1994} when i was working on this project under the sub forum in I2C or pic series
