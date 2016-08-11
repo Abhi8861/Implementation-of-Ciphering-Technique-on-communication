@@ -1,0 +1,15 @@
+___aldiv: CODE, 1434 0 143
+__stringtab: STRING, 3 0 18
+__stringdata: STRCODE, 2048 0 329
+_i2c_address_detect: CODE, 1291 0 14
+_UART_Init: CODE, 1790 0 241
+_i2c_start_detect: CODE, 1264 0 5
+_main: CODE, 1577 0 213
+_UART_Write_Text: CODE, 1373 0 61
+__initialization: CODE, 2031 0 13
+_i2c_data_detect: CODE, 1353 0 20
+_i2c_slave_init: CODE, 1336 0 17
+_delay_ms: CODE, 1320 0 16
+_UART_Write: CODE, 1277 0 14
+_delay1ms: CODE, 1305 0 15
+Total: 1119

@@ -1,0 +1,8 @@
+The code is written in C using xC8 compiler and in MPLABX IDE,for 1 master and 3 slaves each having a UART communication to the PCs at 9600 baud rate each.
+The master communicates with the 3 slaves on the I2C bus line at 100kHz at FOSC.
+The code for master is - MasterStr1.c
+Slavestr1,Slavestr2,Slavestr3 are the codes for Slaves 1,2,3 having an I2C address at 0xAA,0xBB,0xCC. 
+
+The code illustrates a maximum of 80 bytes string transfer (or data transfer) from the master to slave.
+
+The Pdf file in the zipped folder gives the schematic .

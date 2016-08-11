@@ -1,0 +1,22 @@
+___aldiv: CODE, 1288 0 143
+_I2C_init: CODE, 1067 0 20
+__stringtab: STRING, 3 0 18
+__stringdata: STRCODE, 2048 0 490
+_UART_Read: CODE, 962 0 6
+_UART_Init: CODE, 1431 0 241
+_main: CODE, 1672 0 364
+_I2C_Write: CODE, 1048 0 19
+_UART_Write_Text: CODE, 1227 0 61
+_UART_Read_Text: CODE, 1184 0 43
+_i2c_idle: CODE, 994 0 9
+__initialization: CODE, 2036 0 8
+_I2C_address_send1: CODE, 1109 0 22
+_I2C_address_send2: CODE, 1131 0 22
+_I2C_Stop: CODE, 985 0 9
+_I2C_Write_Text: CODE, 1153 0 31
+_delay_ms: CODE, 1032 0 16
+_UART_Write: CODE, 1003 0 14
+_I2C_Start: CODE, 976 0 9
+_delay1ms: CODE, 1017 0 15
+_I2C_address_send: CODE, 1087 0 22
+Total: 1582

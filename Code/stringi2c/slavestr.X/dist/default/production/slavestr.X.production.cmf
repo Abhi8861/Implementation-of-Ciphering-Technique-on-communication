@@ -1,0 +1,523 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\Abhi\AppData\Local\Temp\s6f0.obj
+end_init CODE 0 0 0 3 2
+config CONFIG 0 2007 2007 2 2
+$dist/default/production\slavestr.X.production.obj
+cinit CODE 0 7F0 7F0 10 2
+text11 CODE 0 590 590 8F 2
+text10 CODE 0 6FF 6FF F1 2
+text9 CODE 0 4F0 4F0 E 2
+text8 CODE 0 553 553 3D 2
+text7 CODE 0 50C 50C F 2
+text6 CODE 0 51B 51B 10 2
+text5 CODE 0 4E5 4E5 B 2
+text4 CODE 0 4FE 4FE E 2
+text3 CODE 0 53C 53C 17 2
+text2 CODE 0 52B 52B 11 2
+text1 CODE 0 4D8 4D8 5 2
+maintext CODE 0 61F 61F E0 2
+cstackBANK0 BANK0 1 20 20 16 1
+cstackCOMMON COMMON 1 70 70 C 1
+cstackBANK3 BANK3 1 190 190 57 1
+clrtext CODE 0 4DD 4DD 8 2
+bssBANK3 BANK3 1 1E7 1E7 1 1
+bssBANK0 BANK0 1 36 36 14 1
+bssCOMMON COMMON 1 7C 7C 2 1
+strings STRING 0 3 3 BC 2
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+BANK0 004A-006F 1
+BANK1 00A0-00EF 1
+BANK2 0110-016F 1
+BANK3 01E8-01EF 1
+CODE 00BF-04D7 2
+CODE 0800-1FFF 2
+CONST 00BF-04D7 2
+CONST 0800-1FFF 2
+EEDATA 2100-21FF 2
+ENTRY 00BF-04D7 2
+ENTRY 0800-1FFF 2
+IDLOC 2000-2003 2
+RAM 004A-006F 1
+RAM 00A0-00EF 1
+RAM 0110-016F 1
+RAM 01E8-01EF 1
+SFR0 0000-001F 1
+SFR1 0080-009F 1
+SFR2 0100-010F 1
+SFR3 0180-018F 1
+STACK 0110-016F 1
+STRCODE 00BF-04D7 2
+STRCODE 0800-1FFF 2
+STRING 00BF-04D7 2
+STRING 0800-1FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <file name>:<line number> <address> <psect name> <class name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\slavestr.X.production.obj
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":138 4D8 text1 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":141 4D8 text1 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":145 4DB text1 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":141 4DC text1 CODE
+"C:\Users\Abhi\AppData\Local\Temp\s6f0.":543 4DD clrtext CODE
+"C:\Users\Abhi\AppData\Local\Temp\s6f0.":544 4DD clrtext CODE
+"C:\Users\Abhi\AppData\Local\Temp\s6f0.":545 4DE clrtext CODE
+"C:\Users\Abhi\AppData\Local\Temp\s6f0.":546 4DE clrtext CODE
+"C:\Users\Abhi\AppData\Local\Temp\s6f0.":547 4DF clrtext CODE
+"C:\Users\Abhi\AppData\Local\Temp\s6f0.":548 4E0 clrtext CODE
+"C:\Users\Abhi\AppData\Local\Temp\s6f0.":549 4E1 clrtext CODE
+"C:\Users\Abhi\AppData\Local\Temp\s6f0.":550 4E2 clrtext CODE
+"C:\Users\Abhi\AppData\Local\Temp\s6f0.":551 4E3 clrtext CODE
+"C:\Users\Abhi\AppData\Local\Temp\s6f0.":552 4E4 clrtext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":304 4E5 text5 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":306 4E5 text5 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":226 4F0 text9 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":228 4F1 text9 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":229 4F5 text9 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":230 4F9 text9 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":231 4FD text9 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":148 4FE text4 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":153 4FE text4 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":154 502 text4 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":156 504 text4 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":165 50A text4 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":168 50B text4 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":315 50C text7 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":317 50C text7 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":318 510 text7 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":309 51B text6 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":311 51B text6 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":312 51F text6 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":311 524 text6 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":126 52B text2 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":128 52B text2 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":129 52E text2 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":130 52F text2 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":132 531 text2 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":133 535 text2 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":135 538 text2 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":136 53B text2 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":171 53C text3 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":174 53C text3 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":176 53C text3 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":177 53F text3 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":178 545 text3 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":185 54D text3 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":189 550 text3 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":190 551 text3 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":192 552 text3 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":238 553 text8 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":241 553 text8 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":242 56E text8 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":241 589 text8 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":6 590 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":14 590 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":15 593 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":16 595 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":17 5A0 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":18 5A2 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":19 5A2 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":20 5A4 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":21 5AF text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":23 5B3 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":24 5BB text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":25 5C1 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":26 5C3 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":27 5C5 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":28 5CE text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":26 5D2 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":31 5D3 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":32 5DC text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":33 5EC text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":34 5FA text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":36 5FB text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":37 604 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":39 608 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":40 60B text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":41 616 text11 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":51 61F maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":54 61F maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":55 625 maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":56 629 maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":57 62D maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":58 631 maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":59 635 maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":61 639 maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":63 63D maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":65 63F maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":66 64E maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":67 659 maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":68 662 maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":69 66D maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":70 672 maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":74 67D maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":76 684 maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":74 689 maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":78 691 maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":83 692 maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":84 696 maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":85 69F maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":86 6A7 maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":87 6B0 maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":88 6B9 maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":92 6C2 maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":93 6C7 maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":96 6CA maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":98 6CF maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":99 6D2 maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":100 6DB maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":102 6DB maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":104 6E0 maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":105 6EA maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":106 6EE maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":108 6F2 maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":109 6FB maintext CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":194 6FF text10 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":197 6FF text10 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":198 763 text10 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":200 76A text10 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":202 7CE text10 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":203 7D1 text10 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":204 7D3 text10 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":205 7D4 text10 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":208 7D7 text10 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":209 7D8 text10 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":211 7DB text10 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":213 7E2 text10 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":214 7E5 text10 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":215 7E7 text10 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":216 7E8 text10 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":219 7EB text10 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":220 7EC text10 CODE
+"E:\movies\abhi11\Mini project code\Xcode\new set\stringi2c\slavestr.X\slavestr.c":221 7EF text10 CODE
+"C:\Users\Abhi\AppData\Local\Temp\s6f0.":513 7F0 cinit CODE
+"C:\Users\Abhi\AppData\Local\Temp\s6f0.":516 7F0 cinit CODE
+"C:\Users\Abhi\AppData\Local\Temp\s6f0.":556 7F0 cinit CODE
+"C:\Users\Abhi\AppData\Local\Temp\s6f0.":557 7F1 cinit CODE
+"C:\Users\Abhi\AppData\Local\Temp\s6f0.":560 7F2 cinit CODE
+"C:\Users\Abhi\AppData\Local\Temp\s6f0.":561 7F3 cinit CODE
+"C:\Users\Abhi\AppData\Local\Temp\s6f0.":562 7F4 cinit CODE
+"C:\Users\Abhi\AppData\Local\Temp\s6f0.":563 7F5 cinit CODE
+"C:\Users\Abhi\AppData\Local\Temp\s6f0.":564 7F6 cinit CODE
+"C:\Users\Abhi\AppData\Local\Temp\s6f0.":567 7F9 cinit CODE
+"C:\Users\Abhi\AppData\Local\Temp\s6f0.":568 7FA cinit CODE
+"C:\Users\Abhi\AppData\Local\Temp\s6f0.":569 7FB cinit CODE
+"C:\Users\Abhi\AppData\Local\Temp\s6f0.":575 7FC cinit CODE
+"C:\Users\Abhi\AppData\Local\Temp\s6f0.":576 7FC cinit CODE
+"C:\Users\Abhi\AppData\Local\Temp\s6f0.":577 7FD cinit CODE
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___aldiv@counter 20 0 BANK0 1 cstackBANK0 dist/default/production\slavestr.X.production.obj
+__CFG_WRT$OFF 0 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+__S0 2009 0 ABS 0 - -
+__S1 1E8 0 ABS 0 - -
+__S2 0 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+__Hintentry 0 0 CODE 0 intentry -
+__Lintentry 0 0 CODE 0 intentry -
+__CFG_BOREN$ON 0 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+delay1ms@j 70 0 COMMON 1 cstackCOMMON dist/default/production\slavestr.X.production.obj
+_RCIF 65 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+_BRGH 4C2 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+_SYNC 4C4 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+_TXIF 64 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+_CREN C4 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+_SPEN C7 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+_TXEN 4C5 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+_TRMT 4C1 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+__CFG_BOR4V$BOR40V 0 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+delay_ms@i 72 0 COMMON 1 cstackCOMMON dist/default/production\slavestr.X.production.obj
+_main C3E 0 CODE 0 maintext dist/default/production\slavestr.X.production.obj
+_addr 7C 0 COMMON 1 bssCOMMON dist/default/production\slavestr.X.production.obj
+___sp 0 0 STACK 2 stack C:\Users\Abhi\AppData\Local\Temp\s6f0.obj
+btemp 7E 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+ltemp 7E 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+ttemp 7E 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+wtemp 7E 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+start 0 0 CODE 0 init C:\Users\Abhi\AppData\Local\Temp\s6f0.obj
+delay_us@i 70 0 COMMON 1 cstackCOMMON dist/default/production\slavestr.X.production.obj
+__end_of___aldiv C3E 0 CODE 0 text11 dist/default/production\slavestr.X.production.obj
+_RCREG 1A 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+_TXREG 19 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+reset_vec 0 0 CODE 0 reset_vec C:\Users\Abhi\AppData\Local\Temp\s6f0.obj
+_SPBRG 99 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+ltemp0 7E 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+ttemp0 7E 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+__size_of_i2c_start_detect 0 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+wtemp0 7E 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+ltemp1 82 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+ttemp1 81 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+wtemp1 80 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+ltemp2 86 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+ttemp2 84 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+wtemp2 82 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+ltemp3 80 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+ttemp3 87 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+wtemp3 84 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+ttemp4 7F 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+wtemp4 86 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+wtemp5 88 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+wtemp6 7F 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+__Hconfig 4012 0 CONFIG 0 config -
+__Lconfig 400E 0 CONFIG 0 config -
+_delay1ms A18 0 CODE 0 text7 dist/default/production\slavestr.X.production.obj
+__end_of__stringtab 26 0 STRING 0 strings dist/default/production\slavestr.X.production.obj
+main@i 1E6 0 BANK3 1 cstackBANK3 dist/default/production\slavestr.X.production.obj
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+__end_of__stringdata 17E 0 STRING 0 strings dist/default/production\slavestr.X.production.obj
+__Hfunctab 0 0 CODE 0 functab -
+__Lfunctab 0 0 CODE 0 functab -
+__Hcommon 0 0 ABS 0 common -
+__Lcommon 0 0 ABS 0 common -
+UART_Write_Text@i 76 0 COMMON 1 cstackCOMMON dist/default/production\slavestr.X.production.obj
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+__size_of_UART_Init 0 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+_PIR1bits C 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+_SSPADD 93 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+___int_sp 0 0 STACK 2 stack C:\Users\Abhi\AppData\Local\Temp\s6f0.obj
+?___aldiv 70 0 COMMON 1 cstackCOMMON dist/default/production\slavestr.X.production.obj
+_delay_ms A36 0 CODE 0 text6 dist/default/production\slavestr.X.production.obj
+main@t1 1E0 0 BANK3 1 cstackBANK3 dist/default/production\slavestr.X.production.obj
+_SSPBUF 13 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+main@t2 1E1 0 BANK3 1 cstackBANK3 dist/default/production\slavestr.X.production.obj
+main@t3 1E2 0 BANK3 1 cstackBANK3 dist/default/production\slavestr.X.production.obj
+__Habs1 0 0 ABS 0 abs1 -
+__Labs1 0 0 ABS 0 abs1 -
+_SSPCON 14 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+__Hsfr0 0 0 ABS 0 sfr0 -
+_delay_us 9CA 0 CODE 0 text5 dist/default/production\slavestr.X.production.obj
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+UART_Write_Text@text 71 0 COMMON 1 cstackCOMMON dist/default/production\slavestr.X.production.obj
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+_i2c_slave_init A56 0 CODE 0 text2 dist/default/production\slavestr.X.production.obj
+_i2c_start_detect 9B0 0 CODE 0 text1 dist/default/production\slavestr.X.production.obj
+__end_of_i2c_address_detect A18 0 CODE 0 text4 dist/default/production\slavestr.X.production.obj
+__end_of_UART_Init FE0 0 CODE 0 text10 dist/default/production\slavestr.X.production.obj
+__Hcode 0 0 ABS 0 code -
+__Lcode 0 0 ABS 0 code -
+stackhi 0 0 ABS 0 - C:\Users\Abhi\AppData\Local\Temp\s6f0.obj
+__end_of_i2c_start_detect 9BA 0 CODE 0 text1 dist/default/production\slavestr.X.production.obj
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__end_of_delay_us 9E0 0 CODE 0 text5 dist/default/production\slavestr.X.production.obj
+_datain 1E7 0 BANK3 1 bssBANK3 dist/default/production\slavestr.X.production.obj
+__pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\slavestr.X.production.obj
+_UART_Write_Text AA6 0 CODE 0 text8 dist/default/production\slavestr.X.production.obj
+stacklo 0 0 ABS 0 - C:\Users\Abhi\AppData\Local\Temp\s6f0.obj
+__Hinit 0 0 CODE 0 init -
+__Linit 0 0 CODE 0 init -
+__end_of_main DFE 0 CODE 0 maintext dist/default/production\slavestr.X.production.obj
+__Htext 0 0 ABS 0 text -
+__Ltext 0 0 ABS 0 text -
+end_of_initialization FF8 0 CODE 0 cinit dist/default/production\slavestr.X.production.obj
+___aldiv@sign 21 0 BANK0 1 cstackBANK0 dist/default/production\slavestr.X.production.obj
+_UART_Init DFE 0 CODE 0 text10 dist/default/production\slavestr.X.production.obj
+__stringtab 6 0 STRING 0 strings dist/default/production\slavestr.X.production.obj
+UART_Init@baudrate 26 0 BANK0 1 cstackBANK0 dist/default/production\slavestr.X.production.obj
+_TRISCbits 87 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+__Hstrings 0 0 ABS 0 strings -
+__Lstrings 0 0 ABS 0 strings -
+__pstrings 6 0 STRING 0 strings dist/default/production\slavestr.X.production.obj
+main@array 190 0 BANK3 1 cstackBANK3 dist/default/production\slavestr.X.production.obj
+__Hbank0 0 0 ABS 0 bank0 -
+__Lbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Lbank3 0 0 ABS 0 bank3 -
+___latbits 2 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+__end_of_UART_Write_Text B20 0 CODE 0 text8 dist/default/production\slavestr.X.production.obj
+__Hpowerup 0 0 CODE 0 powerup -
+_SSPSTAT 94 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+__Lpowerup 0 0 CODE 0 powerup -
+UART_Init@x 79 0 COMMON 1 cstackCOMMON dist/default/production\slavestr.X.production.obj
+__ptext1 9B0 0 CODE 0 text1 dist/default/production\slavestr.X.production.obj
+__ptext2 A56 0 CODE 0 text2 dist/default/production\slavestr.X.production.obj
+__ptext3 A78 0 CODE 0 text3 dist/default/production\slavestr.X.production.obj
+__ptext4 9FC 0 CODE 0 text4 dist/default/production\slavestr.X.production.obj
+__ptext5 9CA 0 CODE 0 text5 dist/default/production\slavestr.X.production.obj
+__ptext6 A36 0 CODE 0 text6 dist/default/production\slavestr.X.production.obj
+__ptext7 A18 0 CODE 0 text7 dist/default/production\slavestr.X.production.obj
+__ptext8 AA6 0 CODE 0 text8 dist/default/production\slavestr.X.production.obj
+__ptext9 9E0 0 CODE 0 text9 dist/default/production\slavestr.X.production.obj
+__Hclrtext 0 0 ABS 0 clrtext -
+__Lclrtext 0 0 ABS 0 clrtext -
+__end_of__initialization FF8 0 CODE 0 cinit dist/default/production\slavestr.X.production.obj
+_SSPSTATbits 94 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+_UART_Write 9E0 0 CODE 0 text9 dist/default/production\slavestr.X.production.obj
+__Hidloc 0 0 IDLOC 0 idloc -
+__Lidloc 0 0 IDLOC 0 idloc -
+__Hstack 0 0 STACK 2 stack -
+__Lstack 0 0 STACK 2 stack -
+__Hspace_0 2009 0 ABS 0 - -
+__Lspace_0 0 0 ABS 0 - -
+__Hspace_1 1E8 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+_i2c_address_detect 9FC 0 CODE 0 text4 dist/default/production\slavestr.X.production.obj
+__Hspace_2 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__size_of_delay_ms 0 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+__size_of_delay_us 0 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+__Hcinit 1000 0 CODE 0 cinit -
+__Lcinit FE0 0 CODE 0 cinit -
+___aldiv B20 0 CODE 0 text11 dist/default/production\slavestr.X.production.obj
+UART_Write@data 70 0 COMMON 1 cstackCOMMON dist/default/production\slavestr.X.production.obj
+__Hspace_3 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__size_of_main 0 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+clear_ram0 9BA 0 CODE 0 clrtext dist/default/production\slavestr.X.production.obj
+__end_of_i2c_data_detect AA6 0 CODE 0 text3 dist/default/production\slavestr.X.production.obj
+__end_of_i2c_slave_init A78 0 CODE 0 text2 dist/default/production\slavestr.X.production.obj
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+__pbssBANK0 36 0 BANK0 1 bssBANK0 dist/default/production\slavestr.X.production.obj
+__CFG_FCMEN$OFF 0 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+UART_Read_Text@string 36 0 BANK0 1 bssBANK0 dist/default/production\slavestr.X.production.obj
+__ptext10 DFE 0 CODE 0 text10 dist/default/production\slavestr.X.production.obj
+__ptext11 B20 0 CODE 0 text11 dist/default/production\slavestr.X.production.obj
+__size_of_i2c_data_detect 0 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+__HbssBANK3 0 0 ABS 0 bssBANK3 -
+__LbssBANK3 0 0 ABS 0 bssBANK3 -
+__pbssBANK3 1E7 0 BANK3 1 bssBANK3 dist/default/production\slavestr.X.production.obj
+__CFG_PWRTE$OFF 0 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+__HbssCOMMON 0 0 ABS 0 bssCOMMON -
+__LbssCOMMON 0 0 ABS 0 bssCOMMON -
+__pbssCOMMON 7C 0 COMMON 1 bssCOMMON dist/default/production\slavestr.X.production.obj
+_OSCCONbits 8F 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+_SSPCONbits 14 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+__Hend_init 6 0 CODE 0 end_init -
+__Lend_init 0 0 CODE 0 end_init -
+___aldiv@divisor 70 0 COMMON 1 cstackCOMMON dist/default/production\slavestr.X.production.obj
+__end_of_delay_ms A56 0 CODE 0 text6 dist/default/production\slavestr.X.production.obj
+__Hreset_vec 0 0 CODE 0 reset_vec -
+__Lreset_vec 0 0 CODE 0 reset_vec -
+__HcstackBANK3 0 0 ABS 0 cstackBANK3 -
+__LcstackBANK3 0 0 ABS 0 cstackBANK3 -
+__pcstackBANK3 190 0 BANK3 1 cstackBANK3 dist/default/production\slavestr.X.production.obj
+_i2c_data_detect A78 0 CODE 0 text3 dist/default/production\slavestr.X.production.obj
+__stringdata 26 0 STRING 0 strings dist/default/production\slavestr.X.production.obj
+__size_of___aldiv 0 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+main@msg1 1E3 0 BANK3 1 cstackBANK3 dist/default/production\slavestr.X.production.obj
+__size_of_UART_Write 0 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+intlevel0 0 0 CODE 0 functab C:\Users\Abhi\AppData\Local\Temp\s6f0.obj
+__CFG_WDTE$OFF 0 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+intlevel1 0 0 CODE 0 functab C:\Users\Abhi\AppData\Local\Temp\s6f0.obj
+__end_of_UART_Write 9FC 0 CODE 0 text9 dist/default/production\slavestr.X.production.obj
+__CFG_FOSC$INTRC_NOCLKOUT 0 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+intlevel2 0 0 CODE 0 functab C:\Users\Abhi\AppData\Local\Temp\s6f0.obj
+main@arr1 1E4 0 BANK3 1 cstackBANK3 dist/default/production\slavestr.X.production.obj
+intlevel3 0 0 CODE 0 functab C:\Users\Abhi\AppData\Local\Temp\s6f0.obj
+main@arr2 1E5 0 BANK3 1 cstackBANK3 dist/default/production\slavestr.X.production.obj
+__size_of_i2c_slave_init 0 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+intlevel4 0 0 CODE 0 functab C:\Users\Abhi\AppData\Local\Temp\s6f0.obj
+intlevel5 0 0 CODE 0 functab C:\Users\Abhi\AppData\Local\Temp\s6f0.obj
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\slavestr.X.production.obj
+__CFG_CPD$OFF 0 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+start_initialization FE0 0 CODE 0 cinit dist/default/production\slavestr.X.production.obj
+___aldiv@quotient 22 0 BANK0 1 cstackBANK0 dist/default/production\slavestr.X.production.obj
+__Hmaintext 0 0 ABS 0 maintext -
+__Lmaintext 0 0 ABS 0 maintext -
+__CFG_IESO$OFF 0 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+__pmaintext C3E 0 CODE 0 maintext dist/default/production\slavestr.X.production.obj
+__CFG_MCLRE$ON 0 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+__size_of_i2c_address_detect 0 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+__size_of_delay1ms 0 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+__initialization FE0 0 CODE 0 cinit dist/default/production\slavestr.X.production.obj
+__stringbase 24 0 STRING 0 strings dist/default/production\slavestr.X.production.obj
+__end_of_delay1ms A36 0 CODE 0 text7 dist/default/production\slavestr.X.production.obj
+__CFG_CP$OFF 0 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+__CFG_LVP$OFF 0 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+___aldiv@dividend 74 0 COMMON 1 cstackCOMMON dist/default/production\slavestr.X.production.obj
+__size_of_UART_Write_Text 0 0 ABS 0 - dist/default/production\slavestr.X.production.obj
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect in on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+reset_vec 0 0 0 3 2
+cinit 0 7F0 FE0 10 2
+config 0 2007 400E 2 2
+cstackCOMMON 1 70 70 E 1
+cstackBANK0 1 20 20 2A 1
+cstackBANK3 1 190 190 58 1
+text10 0 6FF DFE F1 2
+maintext 0 61F C3E E0 2
+strings 0 3 6 BC 2
+text11 0 590 B20 8F 2
+text8 0 553 AA6 3D 2
+text3 0 53C A78 17 2
+text2 0 52B A56 11 2
+text6 0 51B A36 10 2
+text7 0 50C A18 F 2
+text4 0 4FE 9FC E 2
+text9 0 4F0 9E0 E 2
+text5 0 4E5 9CA B 2
+clrtext 0 4DD 9BA 8 2
+text1 0 4D8 9B0 5 2
